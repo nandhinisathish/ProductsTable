@@ -1,5 +1,12 @@
+import ProductsTable from "./ProductTable";
+import SearchBar from "./SearchBar";
+
 export default function FilterableProductsTable(){
 
-    return (<h1>Filterable Products </h1>
+    return (
+    <div>
+        <SearchBar/>
+        <ProductsTable/>
+    </div>
     )
 }

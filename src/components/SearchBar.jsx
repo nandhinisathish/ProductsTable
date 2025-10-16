@@ -1,3 +1,12 @@
 export default function SearchBar(){
-    return(<h2>Search Bar</h2>)
+    return( 
+        <form >
+            <input type="text" id="searchBox" placeholder="Search..." />
+            <label>
+                 <input type="checkbox"  id="chkSearch" />
+                 Only show the products in stock
+            </label>
+           
+        </form>
+    )
 }
